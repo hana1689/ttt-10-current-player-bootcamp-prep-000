@@ -3,7 +3,7 @@ def turn_count(boards)
   boards.each do |board|
     if(board[counter] != " " || board[counter] != "" || board[counter] != nil)
       counter += 1
-      print(board[counter])
+      print(board[0])
     end
   end
   return counter
