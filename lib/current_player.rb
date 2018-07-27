@@ -1,6 +1,6 @@
-def turn_count(board)
+def turn_count(boards)
   counter = 0
-  board.each do |board|
+  boards.each do |board|
     if(board[counter] != " " || board[counter] != "")
       counter += 1
     end
