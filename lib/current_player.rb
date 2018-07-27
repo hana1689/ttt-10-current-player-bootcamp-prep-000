@@ -3,8 +3,6 @@ def turn_count(boards)
   boards.each do |board|
     if(board[counter] != nil)
       counter += 1
-    else
-      print(board[counter])
     end
   end
   return counter
