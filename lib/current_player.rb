@@ -1,7 +1,7 @@
 def turn_count(board)
   counter = 0
-  board.each do |board|
-    if(board[counter] != nil)
+  board.each do |item|
+    if(item[counter] != nil)
       counter += 1
     end
   end
