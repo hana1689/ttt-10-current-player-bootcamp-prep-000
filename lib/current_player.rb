@@ -7,7 +7,6 @@ def turn_count(boards)
       print(board[counter])
     end
   end
-  print(counter)
   return counter
 end
 
