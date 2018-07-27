@@ -1,6 +1,6 @@
 def turn_count(board)
   counter = 0
-  boards.each do |board|
+  board.each do |board|
     if(board[counter] != nil)
       counter += 1
     end
